@@ -153,7 +153,7 @@ model_xor = Perceptron(eta=ETA, epochs=EPOCHS)
 model_xor.fit(X, y)
 
 _ = model_xor.total_loss()
-
+print("This is perceptron model")
 
 def save_plot(df, model, filename="plot.png", plot_dir="plots"):
     def _create_base_plot(df):
